@@ -1,0 +1,12 @@
+name: TraitorsInTown
+version: '${project.version}'
+main: me.smajt.traitorsintown.TraitorsInTown
+api-version: 1.18
+depend:
+  - UltimateAdvancementAPI
+  - SkinsRestorer
+commands:
+  adminbook:
+    description: Admin Book
+    usage: /<command>
+    permission: tt.adminbook
